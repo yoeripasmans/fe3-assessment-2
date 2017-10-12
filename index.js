@@ -198,8 +198,6 @@ function onload(err, doc) {
       .attr("y", function(d) {
         return y(d.values[index].amount);
       })
-      .transition()
-      .duration(200)
       .attr("height", function(d) {
         return height - y(d.values[index].amount);
       });
