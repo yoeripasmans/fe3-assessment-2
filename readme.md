@@ -96,29 +96,29 @@ y.domain([0, d3.max(data, function(d) {
 
 - Added a tool-tip to the rectangles
 
-  ```javascript
-  .on("mouseover", function(d) {
-  tooltip.text("Amount:" + " " + d.values[index].amount);
-  tooltip.style("visibility", "visible");
-  })
-  .on("mousemove", function() {
-  return tooltip.style("top", (d3.event.pageY - 10) + "px").style("left", (d3.event.pageX + 10) + "px");
-  })
-  .on("mouseout", function() {
-  return tooltip.style("visibility", "hidden");
-  })
-  ```
+```javascript
+.on("mouseover", function(d) {
+tooltip.text("Amount:" + " " + d.values[index].amount);
+tooltip.style("visibility", "visible");
+})
+.on("mousemove", function() {
+return tooltip.style("top", (d3.event.pageY - 10) + "px").style("left", (d3.event.pageX + 10) + "px");
+})
+.on("mouseout", function() {
+return tooltip.style("visibility", "hidden");
+})
+```
 
 - Added an intro transition
 
-  ```javascript
-  .attr("height", 0)
-  .transition()
-  .duration(200)
-  .delay(function(d, i) {
-  return i * 250;
-  })
-  ```
+```javascript
+.attr("height", 0)
+.transition()
+.duration(200)
+.delay(function(d, i) {
+return i * 250;
+})
+```
 
 - Added interactivity trough clickable buttons to switch between data per year for this I have written own javascript functions which fires when the button is clicked
 
@@ -156,7 +156,7 @@ d3.select('.button-wrapper').append('button').on('click', prevYear)
 
 - Update function to update the data when button is clicked
 
-  ```javascript
+```javascript
   function update() {
     svg.selectAll(".bar")
       .attr("x", function(d) {
@@ -178,11 +178,11 @@ d3.select('.button-wrapper').append('button').on('click', prevYear)
       return d.values[index].date;
     }
   }
-  ```
+```
 
   - Gets year from data index and displays the current year
 
-  ```javascript
+```javascript
   d3.select(".year")
     .data(data)
     .text(year);
@@ -192,7 +192,7 @@ d3.select('.button-wrapper').append('button').on('click', prevYear)
     return d.values[index].date;
   }
 
-  ```
+```
 
 ## Data
 
