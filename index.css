@@ -1,0 +1,84 @@
+body {
+  height: 100%;
+  font-family: Roboto, Helvetica Neue, Open Sans, sans-serif;
+}
+
+svg {
+  display: block;
+  margin: 2.5rem auto auto auto;
+}
+
+text {
+  font-weight: 800;
+}
+
+.bar {
+  fill: #FF0000;
+  fill-opacity: 0.9;
+}
+.bar:hover {
+  transition: 0.2s ease;
+  fill:  #cc0000;
+}
+
+h1 {
+  text-align: center;
+}
+
+.year {
+  font-size: 1.6em;
+  text-align: center;
+  margin-top: 0.5em;
+  font-weight: 600;
+}
+
+.axisX .tick line, .domain {
+  visibility: hidden;
+}
+
+.button-wrapper {
+  display: flex;
+  margin: auto;
+  width: 17em;
+  margin-top: 1.5em;
+  justify-content: center;
+}
+
+button {
+  margin: 0 0.5em;
+    background: none;
+    height: 3.5em;
+    width: 13em;
+    border: 1px solid #858386;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    outline: none;
+    -webkit-appearance: button; /* for input */
+    -webkit-user-select: none; /* for button */
+       -moz-user-select: none;
+        -ms-user-select: none;
+}
+
+button:hover {
+  background-color: #333136;
+  color: #fff;
+  border: none;
+  transition: 0.2s ease;
+}
+
+.tool-tip {
+  position: absolute;
+  visibility: hidden;
+  z-index: 10;
+  color: #fff;
+  padding: 8px;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 6px;
+  font-size: 12px;
+  font-family: sans-serif;
+}

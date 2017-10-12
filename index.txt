@@ -1,0 +1,41 @@
+BRON: Gemeente Amsterdam, Onderzoek, Informatie en Statistiek (algemeen.OIS@amsterdam.nl)
+http://www.ois.amsterdam.nl/feiten-en-cijfers/amsterdam/bevolking/
+
+1.1.1  Standgegevens, 1 januari 2013-2017 - Leerlingen/studenten
+
+
+2013,   Basis onderwijs,   60151
+2014,   Basis onderwijs,   61017
+2015,   Basis onderwijs,   61813
+2016,   Basis onderwijs,   62380
+2017,   Basis onderwijs,   62494
+2013,   Voortgezet onderwijs,   36911
+2014,   Voortgezet onderwijs,   37791
+2015,   Voortgezet onderwijs,   38622
+2016,   Voortgezet onderwijs,   39319
+2017,   Voortgezet onderwijs,   39708
+2013,   MBO,   22293
+2014,   MBO,   23730
+2015,   MBO,   24310
+2016,   MBO,   25177
+2017,   MBO,   25565
+2013,   HBO,   49950
+2014,   HBO,   52866
+2015,   HBO,   52673
+2016,   HBO,   50844
+2017,   HBO,   50186
+2013,   Universiteit,   53374
+2014,   Universiteit,   54806
+2015,   Universiteit,   54900
+2016,   Universiteit,   53542
+2017,   Universiteit,   53376
+2013,   Speciaal onderwijs,   4509
+2014,   Speciaal onderwijs,   4561
+2015,   Speciaal onderwijs,   4387
+2016,   Speciaal onderwijs,   4209
+2017,   Speciaal onderwijs,   4106
+2013,   Praktijk onderwijs,    1348
+2014,   Praktijk onderwijs,    1373
+2015,   Praktijk onderwijs,    1433
+2016,   Praktijk onderwijs,    1478
+2017,   Praktijk onderwijs,    1483
