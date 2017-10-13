@@ -70,7 +70,6 @@ function onload(err, doc) {
         values: group.values
       };
     });
-
   //Variable with the index of the array with data
   var index = 0;
 
@@ -93,9 +92,7 @@ function onload(err, doc) {
       return x(d.values[index].edu);
     })
     .attr("width", x.bandwidth())
-    .attr("y", function(d) {
-      return y(d.values[index].amount);
-    })
+    .attr("y", height)
 
     //Tool-tip
     .on("mouseover", function(d) {
@@ -111,10 +108,15 @@ function onload(err, doc) {
     })
     //Intro transition
     .attr("height", 0)
+
     .transition()
-    .duration(200)
+    .duration(1000)
     .delay(function(d, i) {
       return i * 250;
+    })
+    // .attr("y", "100")
+    .attr("y", function(d) {
+      return y(d.values[index].amount);
     })
     .attr("height", function(d) {
       return height - y(d.values[index].amount);
