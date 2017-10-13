@@ -193,6 +193,8 @@ function onload(err, doc) {
   //Update the bars with the new index value
   function update() {
     svg.selectAll(".bar")
+      .transition()
+      .duration(300)
       .attr("x", function(d) {
         return x(d.values[index].edu);
       })
